@@ -1,0 +1,35 @@
+Usuario modelo:
+{
+
+"nombres":"John",
+"apellidos":"Garcia",
+"cedula":"1152443654",
+"correo":"steven@gmail.com",
+"direccion":"cl54#85-96",
+"sexo":"M",
+"medioPago":"Efectivo",
+"pais":"Colombia",
+"departamento":"Antioquia",
+"municipio":"Medellin",
+"codigoPostal":"0057"
+
+}
+
+
+  tipoPrenda
+  
+{
+    "nombre": "jean"
+}
+
+producto
+
+{
+    "nombreProducto":"camiseta",
+    "referencia":"123",
+     "talla":"s",
+     "cantidadBodega":"2",
+     "precioUnitario":"2000",
+     "descripcion":"camiseta cuello redondon con estanpado en flores ",
+     "fotografia":"ftyfyufjh"
+    }
