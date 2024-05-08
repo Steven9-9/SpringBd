@@ -32,7 +32,7 @@ public class MarcasControlador {
 
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
-                    .body(null);
+                    .body(error.getMessage());
 
 
         }

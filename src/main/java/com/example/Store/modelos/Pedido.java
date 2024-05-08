@@ -2,6 +2,7 @@ package com.example.Store.modelos;
 
 import jakarta.persistence.*;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
@@ -11,7 +12,7 @@ public class Pedido {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id_pedido;
     @Column(name = "fechaYHora",nullable = false)
-    private LocalDateTime fechaYHora; // no vacio y formato internacional
+    private LocalDate fechaYHora; // no vacio y formato internacional
 
  @ManyToOne
  @JoinColumn(name="id_usuario", referencedColumnName = "id_usuario")
@@ -25,11 +26,11 @@ public class Pedido {
         fechaYHora = fechaYHora;
     }
 
-    public LocalDateTime getFechaYHora() {
+    public LocalDate getFechaYHora() {
         return fechaYHora;
     }
 
-    public void setFechaYHora(LocalDateTime fechaYHora) {
+    public void setFechaYHora(LocalDate fechaYHora) {
         this.fechaYHora = fechaYHora;
     }
 }

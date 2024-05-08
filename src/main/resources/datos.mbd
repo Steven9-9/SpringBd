@@ -33,3 +33,27 @@ producto
      "descripcion":"camiseta cuello redondon con estanpado en flores ",
      "fotografia":"ftyfyufjh"
     }
+
+    pedido
+
+    {
+"fechaYHora":"2024-05-05",
+
+    }
+
+    Marca
+    {
+    "nombreMarca": "G-start",
+    "nit": "4684464884-02",
+    "anoCreacion": "1982",
+    "sedePrincipal":"itagui"
+
+    }
+
+    Detalle
+
+    {
+    "costoTotal": 500000,
+    "cantidadProducto": 5
+
+    }

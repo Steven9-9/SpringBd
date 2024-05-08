@@ -31,7 +31,7 @@ public class DetalleControlador {
 
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
-                    .body(null);
+                    .body(error.getMessage());
 
 
         }
